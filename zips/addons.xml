@@ -4,7 +4,7 @@
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
-        <import addon="script.module.the_milk" version="0.0.3"/>
+        <import addon="script.module.the_milk" version="0.0.4"/>
     </requires>
     <extension library="resources/lib/the_cow.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -70,7 +70,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.the_milk" name="The Milk Module" version="0.0.3" provider-name="Elvis-Gratton">
+<addon id="script.module.the_milk" name="The Milk Module" version="0.0.4" provider-name="Elvis-Gratton">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
