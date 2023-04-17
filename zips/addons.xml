@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.8">
+<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.9">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
@@ -89,7 +89,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.the_milk" name="The Milk Module" version="0.0.7" provider-name="Elvis-Gratton">
+<addon id="script.module.the_milk" name="The Milk Module" version="0.0.8" provider-name="Elvis-Gratton">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
