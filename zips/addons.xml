@@ -19,7 +19,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.12">
+<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.13">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
