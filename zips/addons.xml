@@ -19,11 +19,11 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.22">
+<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.23">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
-        <import addon="script.module.the_milk" version="0.0.22"/>
+        <import addon="script.module.the_milk" version="0.0.23"/>
         <import addon="script.module.web-pdb" version="1.5.6"/>
     </requires>
     <extension library="resources/lib/the_cow.py" point="xbmc.python.pluginsource">
