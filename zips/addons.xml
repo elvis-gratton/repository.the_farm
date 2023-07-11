@@ -15,26 +15,7 @@
     </extension>
 </addon>
 
-<addon id="plugin.program.thumbcache.cleaner" name="Thumbnail Cache Cleaner" version="1.0.04" provider-name="TikiPeter">
-    <requires />
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.python.module" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Clean Kodi's Thumbnail Cache</summary>
-        <description lang="en">Clean Kodi's Thumbnail Cache</description>
-        <platform>all</platform>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-        <source>/</source>
-        <news></news>
-        <assets>
-            <icon>icon.png</icon>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="plugin.video.the_cow" name="the_cow" provider-name="Elvis Gratton" version="0.0.30">
+<addon id="plugin.video.the_cow" name="the_cow 0.0.31" provider-name="Elvis Gratton" version="0.0.31">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.19.1"/>
