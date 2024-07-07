@@ -85,7 +85,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.the_milk" name="The Milk Module" version="0.1.18" provider-name="Elvis-Gratton">
+<addon id="script.module.the_milk" name="The Milk Module" version="0.1.19" provider-name="Elvis-Gratton">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests"/>
