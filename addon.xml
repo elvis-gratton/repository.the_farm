@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.the_farm" name="the farm's Repository" version="1.0.4" provider-name="Elvis Gratton">
+    <extension point="xbmc.addon.repository" name="the farm's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>the farm's Repository</summary>
+        <description>Unofficial add-ons repository</description>
+    </extension>
+</addon>

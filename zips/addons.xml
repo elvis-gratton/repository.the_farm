@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="repository.the_farm" name="the farm's Repository" version="1.0.4" provider-name="Elvis Gratton">
+    <extension point="xbmc.addon.repository" name="the farm's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>the farm's Repository</summary>
+        <description>Unofficial add-ons repository</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.the_cow" name="La Vache" provider-name="Elvis-Gratton" version="2.0.00">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.19.1"/>
+    </requires>
+    <extension library="resources/lib/thecow.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="resources/lib/service.py" point="xbmc.service"/>
+    <extension library="resources/lib/" point="xbmc.python.module"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Access your content from Easynews and Debrid Clouds.</summary>
+        <description lang="en">This add-on is intended for advanced Kodi users only. You must own the content of any media you play through this addon. This is an English language only add-on.</description>
+        <platform>all</platform>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
+        <license/>
+        <assets>
+            <icon>resources/media/thecow_icon.png</icon>
+            <fanart>resources/media/thecow_fanart2.jpg</fanart>
+        </assets>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
+    </extension>
+</addon>
+
+<addon id="repository.the_farm" name="the farm's Repository" version="1.0.4" provider-name="Elvis Gratton">
+    <extension point="xbmc.addon.repository" name="the farm's Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/elvis-gratton/repository.the_farm/master/zips</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>the farm's Repository</summary>
+        <description>Unofficial add-ons repository</description>
+    </extension>
+</addon>
+
+<addon id="script.module.the_milk" name="The Milk Module" version="2.0.00" provider-name="Elvis-Gratton">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="lib/service.py" start="startup"/>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en">The Milk Module</summary>
+        <description>This is a fork of the_milk from CocoJoe2411.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum></forum>
+        <website></website>
+        <source></source>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for
+            the content found using this addon. The author does not host or own any content found within this
+            addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a
+            Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use
+            doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by
+            permitting the unlicensed use of copyright-protected works.
+        </disclaimer>
+        <assets>
+            <icon>resources/milk_icon.png</icon>
+            <fanart>resources/milk_fanart.png</fanart>
+            <screenshot></screenshot>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
+</addons>
